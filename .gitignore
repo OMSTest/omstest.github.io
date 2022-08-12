@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+
+# Hugo
+.hugo_build.lock
+public/*
+themes/*
+
+# Data Packs
+static/data1
