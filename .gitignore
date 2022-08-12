@@ -12,8 +12,16 @@ nbproject/
 
 # Hugo
 .hugo_build.lock
+
 public/*
+
 themes/*
+!themes/.gitkeep
+
+resources/_gen/*
+
+static/*
+!static/.gitkeep
 
 # Data Packs
 static/data1
