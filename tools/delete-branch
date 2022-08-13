@@ -1,0 +1,35 @@
+#!/bin/sh
+set -e # 
+
+git fetch -p -q
+
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "" == "$1" ]; then
+	delete_branch=$current_branch
+else
+	delete_branch=$1
+fi
+
+if [ "$delete_branch" == "main" ] || [ "$delete_branch" == "release" ] || [ "$delete_branch" == "0.1" ]; then
+	echo "ERROR: You can't delete a branch system as $delete_branch"
+	exit 1
+else
+
+	if [ "main" != "$current_branch" ]; then
+		git checkout -q main
+	fi
+
+	if [ "main" != "$(git rev-parse --abbrev-ref HEAD)" ]; then
+		echo "mal"
+		exit 1
+	fi
+
+	if [ `git ls-remote --heads -q | grep refs/heads/$delete_branch | awk '{print $1}'` ]; then
+		echo "Delete $delete_branch in GitHub ..."
+		git push origin --delete $delete_branch
+	fi
+
+	echo "Delete $delete_branch in local ..."
+	git branch -D $delete_branch
+fi

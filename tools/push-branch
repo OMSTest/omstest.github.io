@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e 
+
+git fetch -p -q
+
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "$current_branch" == "main" ] || [ "$current_branch" == "release" ] || [ "$current_branch" == "0.1" ]; then
+	echo "ERROR: You can't deploy one branch as $current_branch"
+	exit 1
+else
+	echo "Creating $current_branch on GitHub ..."
+	if [ `git ls-remote --heads -q | grep refs/heads/$current_branch | awk '{print $1}'` ]; then
+		echo "ERROR: The branch: $current_branch is already exist in GitHub!"
+		echo "  (use \"git branch -avv\" to see all branch)"
+		exit 1
+	fi
+	echo "Deploying $current_branch to GitHub ..."
+	git push --set-upstream origin $current_branch
+fi

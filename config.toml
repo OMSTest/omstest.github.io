@@ -4,6 +4,16 @@ title = 'My New Hugo Site'
 
 [module]
   
+  #
+  # Theme
+  #
   [[module.imports]]
     path = "github.com/CaiJimmy/hugo-theme-stack/v3"
     disable = false
+
+  #
+  # Theme
+  #
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+    disable = true
