@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -euo pipefail # http://redsymbol.net/articles/unofficial-bash-strict-mode
+IFS=$'\n\t'
+
+port="${1:-1313}" # default
+
+# shellcheck disable=SC2155
+#export HUGO_THEMESDIR="$(pwd)/../" # The replacement paths need to be relative to Hugo's themesDir.
+# Add , to the other replacements
+replacements=("github.com/OMSTest/omstest-theme")
+
+HUGO_MODULE_REPLACEMENTS=""
+for mod in "${replacements[@]}"
+do
+    HUGO_MODULE_REPLACEMENTS="${HUGO_MODULE_REPLACEMENTS}${mod} -> $(echo "${mod}" | cut -d/ -f3)"
+done
+export HUGO_MODULE_REPLACEMENTS
+
+echo "Hugo Module Graph:"
+hugo mod graph
+
+hugo server \
+     --buildDrafts \
+     --buildFuture \
+     --navigateToChanged \
+     --port "${port}"

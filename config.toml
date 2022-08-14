@@ -1,19 +1,19 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'OMSTest'
 
 [module]
-  
+
   #
   # Theme
   #
   [[module.imports]]
     path = "github.com/CaiJimmy/hugo-theme-stack/v3"
-    disable = false
+    disable = true
 
   #
   # Theme
   #
   [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"
-    disable = true
+    path = "github.com/OMSTest/omstest-theme"
+    disable = false
