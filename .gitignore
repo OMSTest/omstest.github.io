@@ -14,11 +14,10 @@ nbproject/
 .hugo_build.lock
 
 public/*
+resources/*
 
 themes/*
 !themes/.gitkeep
-
-resources/_gen/*
 
 static/*
 !static/.gitkeep
