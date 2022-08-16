@@ -13,6 +13,8 @@ nbproject/
 # Hugo
 .hugo_build.lock
 
+config/_default/config.toml
+
 public/*
 resources/*
 
