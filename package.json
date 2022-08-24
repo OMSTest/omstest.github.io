@@ -1,0 +1,14 @@
+{
+  "comments": {
+    "dependencies": {
+      "admin-lte": "github.com/OMSTest/omstest-theme"
+    },
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "admin-lte": "github:ColorlibHQ/AdminLTE"
+  },
+  "devDependencies": {},
+  "name": "HugoGo",
+  "version": "0.1.0"
+}

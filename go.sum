@@ -4,3 +4,5 @@ github.com/OMSTest/omstest-theme v0.0.0-20220813205520-7f57ae7141ad h1:9z3JrhHtU
 github.com/OMSTest/omstest-theme v0.0.0-20220813205520-7f57ae7141ad/go.mod h1:VwMZ5X+s9LC8+anqhcudZI7PRef0Jz4I2E8fyjn3Qe0=
 github.com/OMSTest/omstest-theme v0.0.0-20220824082432-d93d1f025ff0 h1:xEbYMGlyatuxkCdX3UIXSW6ZOns0MFuwrZcJmyYR1BQ=
 github.com/OMSTest/omstest-theme v0.0.0-20220824082432-d93d1f025ff0/go.mod h1:VwMZ5X+s9LC8+anqhcudZI7PRef0Jz4I2E8fyjn3Qe0=
+github.com/OMSTest/omstest-theme v0.0.0-20220824093907-ad2fb5b7cebe h1:EJr9MoC4UoS3+rDeWxXw0r8JEct63jhGGR5QCRjr0N8=
+github.com/OMSTest/omstest-theme v0.0.0-20220824093907-ad2fb5b7cebe/go.mod h1:VwMZ5X+s9LC8+anqhcudZI7PRef0Jz4I2E8fyjn3Qe0=
