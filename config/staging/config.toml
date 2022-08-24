@@ -8,5 +8,5 @@ title = 'OMSTest'
   # Theme
   #
   [[module.imports]]
-    path = "github.com/OMSTest/omstest-theme"
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
     disable = false

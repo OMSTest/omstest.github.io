@@ -24,4 +24,6 @@ hugo server \
      --buildDrafts \
      --buildFuture \
      --navigateToChanged \
+     --gc \
+     --verbose \
      --port "${port}"
