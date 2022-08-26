@@ -3,7 +3,7 @@
 set -euo pipefail # http://redsymbol.net/articles/unofficial-bash-strict-mode
 IFS=$'\n\t'
 
-port="${1:-1313}" # default
+port="${1:-1714}" # default
 
 # shellcheck disable=SC2155
 #export HUGO_THEMESDIR="$(pwd)/../" # The replacement paths need to be relative to Hugo's themesDir.
