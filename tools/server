@@ -17,8 +17,8 @@ do
 done
 export HUGO_MODULE_REPLACEMENTS
 
-echo "Hugo Module Graph:"
-hugo mod graph
+#echo "Hugo Module Graph:"
+#hugo mod graph
 
 hugo server \
      --buildDrafts \

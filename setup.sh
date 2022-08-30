@@ -5,3 +5,5 @@
 # Copy Git Hooks
 
 # Download Development Environment (Theme, Data packages)
+
+#hugo mod
