@@ -8,5 +8,16 @@ title = 'OMSTest'
   # Theme
   #
   [[module.imports]]
-    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+    path = "github.com/OMSTest/omstest-theme"
     disable = false
+
+  #
+  # Theme Mounts
+  #  
+  [[module.mounts]]
+    source = "node_modules"
+    target = "assets/node_modules"
+
+  [[module.mounts]]
+    source = "node_modules/admin-lte/plugins/fontawesome-free/webfonts"
+    target = "static/node_modules/admin-lte/plugins/fontawesome-free/webfonts"  

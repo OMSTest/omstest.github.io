@@ -21,18 +21,13 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      #- name: Setup Node
-      #  uses: actions/setup-node@v3
-      #  with:
-      #    node-version: '16'
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
       
-      #- name: Install NPM packages
-      #  run: npm install 
-      #- name: Install Bootstrap
-      #  run: hugo mod get github.com/twbs/bootstrap@v4
-
-      #- name: Install RFS Bootstrap
-      #  run: hugo mod get github.com/twbs/rfs@v8
+      - name: Install NPM packages
+        run: npm install 
 
       - name: Build Hugo
         run: hugo --minify

@@ -10,3 +10,14 @@ title = 'OMSTest'
   [[module.imports]]
     path = "github.com/OMSTest/omstest-theme"
     disable = false
+
+  #
+  # Theme Mounts
+  #  
+  [[module.mounts]]
+    source = "node_modules"
+    target = "assets/node_modules"
+
+  [[module.mounts]]
+    source = "node_modules/admin-lte/plugins/fontawesome-free/webfonts"
+    target = "static/node_modules/admin-lte/plugins/fontawesome-free/webfonts"  
