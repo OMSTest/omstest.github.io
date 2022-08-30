@@ -28,11 +28,11 @@ jobs:
       
       #- name: Install NPM packages
       #  run: npm install 
-      - name: Install Bootstrap
-        run: hugo mod get github.com/twbs/bootstrap@v4
+      #- name: Install Bootstrap
+      #  run: hugo mod get github.com/twbs/bootstrap@v4
 
-      - name: Install RFS Bootstrap
-        run: hugo mod get github.com/twbs/rfs@v8
+      #- name: Install RFS Bootstrap
+      #  run: hugo mod get github.com/twbs/rfs@v8
 
       - name: Build Hugo
         run: hugo --minify
