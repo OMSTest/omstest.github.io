@@ -4,6 +4,8 @@ github.com/ColorlibHQ/AdminLTE v3.2.1-0.20220712102124-9510278efd24+incompatible
 github.com/ColorlibHQ/AdminLTE v3.2.1-0.20220712102124-9510278efd24+incompatible/go.mod h1:yAKYVzWN8urHz0GbQtEjXA6WxVIjbDcv2sw12Za2w8k=
 github.com/OMSTest/omstest-theme v0.0.0-20220830130337-5e711408b56e h1:6O2+Gd/XYVXCzUgIZtHI2XOl+LERTLUki6Mrq4re3uo=
 github.com/OMSTest/omstest-theme v0.0.0-20220830130337-5e711408b56e/go.mod h1:S+vvUJXCpnzWfiChWtV7mzMZhsVKyIrK3mdmcQpQV+o=
+github.com/OMSTest/omstest-theme v0.0.0-20220830145132-29b5cfb6a572 h1:tcDwlKskWMZCU1+yuTfiz5dUgV2UUHUmYJ+KsuitoGM=
+github.com/OMSTest/omstest-theme v0.0.0-20220830145132-29b5cfb6a572/go.mod h1:S+vvUJXCpnzWfiChWtV7mzMZhsVKyIrK3mdmcQpQV+o=
 github.com/twbs/bootstrap v4.6.2+incompatible h1:TDa+R51BTiy1wEHSYjmqDb8LxNl/zaEjAOpRE9Hwh/o=
 github.com/twbs/bootstrap v4.6.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.2.0+incompatible h1:vQ0kzhoIB0GvI21nWFTcuBCVwx9IvK2XvdTHWryVnZc=
