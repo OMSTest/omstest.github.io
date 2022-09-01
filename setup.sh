@@ -9,5 +9,8 @@ cp -R tools/hooks/* .git/hooks/
 # Download Theme
 git clone git@github.com:OMSTest/omstest-theme.git themes/omstest-theme
 
-#Install NPM Packages
+# Install NPM Packages
 npm install
+
+# Copy production config to _default (dev) to run local server
+cp -R config/production/config.toml config/_default/config.toml
