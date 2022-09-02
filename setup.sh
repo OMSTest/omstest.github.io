@@ -6,8 +6,8 @@ git config branch.main.rebase true
 # Copy Git Hooks
 cp -R tools/hooks/* .git/hooks/
 
-# Download Development Environment
-./tools/pull-devenv
+# Download Theme
+./tools/dl-theme
 
 # Install NPM Packages
 npm install
