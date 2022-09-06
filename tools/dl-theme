@@ -3,6 +3,6 @@
 pushd .
 
 # Download Theme
-git clone git@github.com:OMSTest/omstest-theme.git themes/omstest-theme
+git clone https://github.com/OMSTest/omstest-theme.git themes/omstest-theme
 
 popd

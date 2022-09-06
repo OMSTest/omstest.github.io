@@ -1,0 +1,8 @@
+#!/bin/sh
+
+pushd .
+
+# Download Data
+git clone --recurse-submodules https://github.com/OMSTest/omstest-static.git static/static
+
+popd

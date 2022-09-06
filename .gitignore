@@ -21,11 +21,8 @@ resources/*
 themes/*
 !themes/.gitkeep
 
-static/*
-!static/.gitkeep
-
-# Data Packs
-static/data1
+# Static Packs
+static/static
 
 # Libraries
 node_modules
