@@ -9,6 +9,9 @@ cp -R tools/hooks/* .git/hooks/
 # Download Theme
 ./tools/dl-theme
 
+# Download Static
+./tools/dl-static
+
 # Install NPM Packages
 npm install
 
